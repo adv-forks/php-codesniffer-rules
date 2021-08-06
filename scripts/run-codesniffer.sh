@@ -18,7 +18,7 @@ then
     cd "${WORKDIR}"
 
     "${BIN_DIR}"/phpcs -p -v \
-    --standard="${WORKDIR}"/vendor/adv-forks/php-codesniffer-rules/Elama_PHP${PHP_VERSION}/ruleset.xml \
+    --standard="${WORKDIR}"/vendor/elama/php-codesniffer-rules/Elama_PHP${PHP_VERSION}/ruleset.xml \
     --ignore=${IGNORED_DIRS} \
     --report=checkstyle \
     --extensions=php \
