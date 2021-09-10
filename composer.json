@@ -1,5 +1,5 @@
 {
-  "name": "elama/php-codesniffer-rules",
+  "name": "adv-forks/php-codesniffer-rules",
 
   "require": {
     "squizlabs/php_codesniffer": "2.*"
